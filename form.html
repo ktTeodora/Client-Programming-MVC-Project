@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simbelmynë - Your Order</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/parasol.css" rel="stylesheet" type="text/css" />
+    <link href="vendor/css/vendor.css" rel="stylesheet" type="text/css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/media/symb-icon.png" type="image/x-icon">
+    <script src="assets/js/app.js" type="module"></script>
+</head>
+
+<body id="form-body">
+
+    <div id="formNavigation">
+        <a href="index.html#page-title"> Home </a>
+        <a href="index.html#history-section"> History </a>
+        <a href="index.html#tradition-section"> Tradition </a>
+        <a href="index.html#about-section"> About Us </a>
+        <a href="index.html#purchase-section"> Purchase </a>
+    </div>
+
+
+    <!-- *********************************************
+    **************** VENDOR HAMBURGER MENU *****************
+    **********************************************-->
+    <div id="mobile-nav-sticky">
+        <input id="mobile-nav-checkbox" type="checkbox">
+
+        <label for="mobile-nav-checkbox" id="mobile-nav">
+            <span class="menu">
+                <span class="hamburger">
+                </span>
+            </span>
+        </label>
+
+        <div id="hamburger-menu">
+            <div id="hamburger-menu-items">
+                <a href="index.html#page-title" onclick="closeMobileNav();">Home</a>
+                <a href="index.html#history-section" onclick="closeMobileNav();">History</a>
+                <a href="index.html#tradition-section" onclick="closeMobileNav();">Tradition</a>
+                <a href="index.html#about-section" onclick="closeMobileNav();">About Us</a>
+                <a href="index.html#purchase-section" onclick="closeMobileNav();">Purchase</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- *************************************************
+**********************************************************
+************************* PAGE BODY **************************-->
+
+
+
+    <div id="parasol-form-page">
+
+        <h1>Finalise your order</h1>
+
+        <div id="form-layout">
+
+            <form id="form-parasol-name" name="userDataInput">
+
+                <fieldset>
+
+                    <legend>Parasol Name Settings</legend>
+
+                    <label for="name"> Full Name :</label>
+                    <input class="input-text-field" type="text" name="name" id="name" placeholder="Your Full Name" maxlength="30">
+                    <p class="input-message"></p>
+
+                    <label for="email">Email :</label>
+                    <input class="input-text-field" type="email" name="email" id="email" placeholder="Valid Email Address">
+                    <p class="input-message"></p>
+
+                    <label for="address">Address :</label>
+                    <input class="input-text-field" type="text" name="address" id="address" placeholder="Delivery Address">
+                    <p class="input-message"></p>
+
+                    <label for="country">Country :</label>
+                    <input class="input-text-field" type="text" name="country" id="country" maxlength="40">
+                    <p class="input-message"></p>
+
+                    <label for="phone">Contact Number :</label>
+                    <input class="input-text-field" type="text" name="phone" id="phone" placeholder="Phone Number">
+                    <p class="input-message"></p>
+
+
+                    <label>Credit Card Info :</label>
+                    <input name="credit-number" class="cc-number" type="tel" pattern="\d*" maxlength="16" placeholder="Card Number">
+                    <p class="input-message"></p>
+                    <input name="credit-expires" class="cc-expires" type="tel" maxlength="5" placeholder="MM / YY">
+                    <p class="input-message"></p>
+                    <input name="credit-cvc" class="cc-cvc" type="tel" pattern="\d*" maxlength="3" placeholder="CVC">
+                    <p class="input-message"></p>
+
+                    <div id="submit-feedback"></div>
+                </fieldset>
+
+
+                <input id="delivery-form-submit" type="submit" value="Submit">
+
+
+            </form>
+
+
+
+            <div id="order-display">
+                <h2>Your Wagasa</h2>
+                <div id="div-parasol" class="conbtainer-item">
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

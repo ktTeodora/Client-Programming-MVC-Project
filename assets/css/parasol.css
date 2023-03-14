@@ -1,0 +1,715 @@
+/**
+* STYLING SHEET FOR INDEX PAGE && FORM PAGE
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-image: url("../../vendor/media/wagasa-bg-rend.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Aboreto', cursive;
+    scroll-behavior: smooth;
+    scroll-padding-top: 110px;
+}
+
+body {
+    touch-action: pan-y;
+}
+
+
+/* BEGINNING BROWSER SUPPORT OVERLAY */
+
+
+/* Depending on the parent class element, if it has a "no-" suffix in the class name, it will display the browser overlay */
+
+[class*="no-"] #browserSupportOverlay {
+    display: flex;
+}
+
+
+/* When the no is activated, disable the user from scrolling */
+
+[class*="no-"] {
+    overflow: hidden;
+}
+
+
+/* Actual browser overlay */
+
+#browserSupportOverlay {
+    display: none;
+    background-color: #d3cac6;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    z-index: 200;
+}
+
+#browserSupportOverlay h1 {
+    font-size: 4.6rem;
+}
+
+#browserSupportOverlay img {
+    max-width: 100%;
+    height: auto;
+    width: 250px;
+}
+
+h1 {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0%;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-size: 6.6rem;
+}
+
+#page-title {
+    display: block;
+    margin: 0 auto;
+    padding-top: 10rem;
+    width: fit-content;
+    text-align: center;
+}
+
+#navigation {
+    display: block;
+    margin: 0%;
+    padding: 0%;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    margin: 0 10em;
+}
+
+#formNavigation {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.951);
+    /* cursor: pointer; */
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 6em;
+    list-style: none;
+    gap: 2%;
+}
+
+#formNavigation a {
+    text-decoration: none;
+    color: #8c5353;
+}
+
+#navbar {
+    display: flex;
+    background: rgba(255, 255, 255, 0.951);
+    /* cursor: pointer; */
+    margin: 0;
+    align-items: center;
+    padding: 2em 6em;
+    list-style: none;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#navbar li {
+    /* margin: 0 4%; */
+    padding: 0 5%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0 2%;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: #8c5353;
+    /* cursor: pointer; */
+}
+
+#page-content {
+    background-color: rgba(255, 255, 255, 0.78);
+    margin: 0em 10em 0em 10em;
+    position: relative;
+    display: grid;
+    padding: 8em 2em;
+    align-items: center;
+}
+
+#header-addition {
+    margin-top: 0%;
+    margin-bottom: 3em;
+    color: #00000041;
+    font-size: 3.8rem;
+}
+
+
+/* SETTING UP BANNERS
+            ***********************/
+
+#banner-top {
+    background-image: url("../../vendor/media/banner-top.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: relative;
+    height: 16vw;
+    margin: 0 10em;
+}
+
+#banner-bottom {
+    background-image: url("../../vendor/media/banner-bottom.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    position: relative;
+    height: 11vw;
+    margin: 0 4em;
+}
+
+
+/* end of banners
+            ************************* 
+            SETTING UP THE STARTING LINE AND BACK TO TOP
+            *************************************************/
+
+#starting-line {
+    display: block;
+    margin: 0 10em 0em 10em;
+    padding-top: 2em;
+    /* background-color: #97918f; */
+    background-color: rgba(255, 255, 255, 0.951);
+    border-radius: 20px 20px 0px 0px;
+}
+
+#back-to-top {
+    display: block;
+    margin: 0 10em 10em 10em;
+    padding-bottom: 2em;
+    /* background-color: #97918f; */
+    /* background-color: #b6aeab; */
+    background-color: rgba(255, 255, 255, 0.951);
+    border-radius: 0 0 20px 20px;
+}
+
+
+/* editing the content related sections with text and images 
+        PARAGRAPHS AND IMAGES SECTIONS */
+
+.content-section {
+    /* display: block; */
+    margin-bottom: 10em;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-with-title {
+    display: block;
+    width: 60%;
+}
+
+.text-with-title h2 {
+    margin: 0 0 2.2em 0;
+    font-size: 2rem;
+    color: #594d49;
+}
+
+.h2-addition {
+    display: block;
+    color: #887870ce;
+}
+
+.text-with-title p {
+    /* width: 60%; */
+    word-spacing: 5px;
+    line-height: 26px;
+    font-size: .9rem;
+    margin: 0 4%;
+    text-align: justify;
+}
+
+.content-section img {
+    height: 500px;
+    margin: 0 4%;
+}
+
+
+/* defining the section break line with the logo 
+        SECTION BREAK LINE AND LOGO*/
+
+#history-section .section-line {
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+/* END OF FIRST BREAK */
+
+.section-break-center {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.section-break {
+    display: flex;
+    margin-bottom: 4em;
+    align-items: center;
+}
+
+.section-line {
+    display: block;
+    width: 60%;
+    height: 1px;
+    border: 2px solid #dcd3d1;
+    border-radius: 20px;
+    background: #dcd3d1;
+}
+
+.section-break-logo {
+    display: block;
+    margin: 0px 10px;
+    width: 5%;
+    height: auto;
+}
+
+
+/* selection section grid with dropdown menus and the created image
+SELECTION GRID */
+
+#shop {
+    display: grid;
+    grid-template-areas: "menus showcase";
+    grid-template-columns: 40% 60%;
+}
+
+#div-selects {
+    grid-area: menus;
+    justify-self: center;
+    align-self: center;
+}
+
+#image-display {
+    grid-area: showcase;
+}
+
+#div-parasol {
+    height: fit-content;
+}
+
+#div-parasol img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#div-selects select {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Aboreto', cursive;
+    font-size: 0.9rem;
+    margin: 2em 0;
+    padding: 0.8em 1.6em;
+    background: #d3cac6;
+    border: 2px solid #887870;
+    border-radius: 0.5em;
+    color: #573636;
+    min-width: 300px;
+    cursor: pointer;
+}
+
+fieldset {
+    border-radius: 8px;
+}
+
+
+/* selection grid end */
+
+
+/* editing the showcase div and aligning the image
+INPUT EDITING */
+
+.selection-display {
+    display: block;
+    margin: 0 auto;
+}
+
+#buttons {
+    display: flex;
+    margin: 1.6em auto;
+    justify-content: center;
+    column-gap: 1.2em;
+}
+
+#submit-btn,
+#reset-btn {
+    background: #d3cac6;
+    font-family: 'Aboreto', cursive;
+    color: #573636;
+    font-size: 0.8rem;
+    border: 2px solid #ab7c79;
+    border-radius: 1.6em;
+    padding: 0.6em 1.4em;
+    cursor: pointer;
+    transition: background 0.3s;
+    box-shadow: 0.4px 1px #594d49;
+    min-width: 60%;
+}
+
+#submit-btn:hover,
+#reset-btn:hover {
+    background: #f5e7e1c4;
+}
+
+#submit-btn:disabled {
+    background: #d3cac6;
+    cursor: initial;
+}
+
+#delivery-form-submit {
+    background: #e5dfdd;
+    display: block;
+    font-family: 'Aboreto', cursive;
+    color: #573636;
+    font-size: 0.8rem;
+    border: 2px solid #573636;
+    border-radius: 1.6em;
+    padding: 0.6em 1.4em;
+    cursor: pointer;
+    transition: background 0.3s;
+    box-shadow: 0.4px 1px #594d49;
+    margin: 1.4em auto;
+}
+
+#delivery-form-submit:hover {
+    background: #ffffff;
+}
+
+#delivery-form-submit:disabled {
+    background: #a49f9c;
+    cursor: initial;
+}
+
+
+/****************************************
+*****************************************
+************* FORM STYLING **************
+******************************************/
+
+#form-body {
+    position: relative;
+    background-image: url("../../vendor/media/WagasaFormBackground.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#parasol-form-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+#parasol-form-page h1 {
+    font-size: 3.8rem;
+    margin-bottom: 3rem;
+    color: #573636;
+    text-align: center;
+}
+
+#form-layout {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.895);
+    display: flex;
+    gap: 50px;
+    height: fit-content;
+    max-width: 1000px;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+#form-parasol {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 66%;
+    margin: 0 auto;
+}
+
+#form-parasol-name {
+    min-width: 50%;
+    height: fit-content;
+    display: block;
+    text-align: justify;
+}
+
+#form-parasol-name label {
+    display: block;
+    padding-top: 1rem;
+}
+
+.input-message {
+    font-size: 0.5rem;
+}
+
+#submit-feedback {
+    display: block;
+    padding-top: 2rem;
+    color: #573636;
+}
+
+
+/*****************************************************
+ adding media queries for responsive page design
+RESPONSIVENESS */
+
+@media only screen and (max-width: 1415px) {
+    #page-content {
+        margin: 0em 6em;
+    }
+    #navigation {
+        margin: 0em 6em;
+    }
+    #navbar li {
+        padding: 0 2%;
+    }
+    #banner-top {
+        margin: 0em 6em;
+    }
+    #banner-bottom {
+        margin: 0em 4em;
+    }
+    #starting-line {
+        margin: 0 6em;
+    }
+    #back-to-top {
+        margin: 0 6em;
+        margin-bottom: 6em;
+    }
+}
+
+@media only screen and (max-width: 1507px) {
+    /* fixing up the page layout 
+       PARASOL PAGE EDITING*/
+    #page-title {
+        padding-top: 10rem;
+    }
+    h1 {
+        font-size: 4.6rem;
+    }
+    #header-addition {
+        font-size: 2.8rem;
+    }
+}
+
+#selection-section {
+    display: inline-block;
+    position: relative;
+    max-width: 60%;
+}
+
+#image-display {
+    display: inline-block;
+    position: relative;
+    margin: 0%;
+    width: 100%;
+}
+
+#page-content {
+    margin: 0em 4em;
+    padding: 6em 2em;
+}
+
+#navigation {
+    margin: 0em 4em;
+}
+
+#banner-top {
+    margin: 0 4em;
+}
+
+#banner-bottom {
+    margin: 0em 4em;
+}
+
+#starting-line {
+    margin: 0 4em;
+}
+
+#back-to-top {
+    margin: 0 4em;
+    margin-bottom: 6em;
+}
+
+#navbar li {
+    padding: 0 2%;
+}
+
+
+/* dropdown menus and lists */
+
+.dropdown {
+    max-width: 100%;
+}
+
+.currentSelection {
+    padding: 0.2em 1em;
+}
+
+
+/* FANCY ANIMATIONS */
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(15%);
+    transition: all 0.5s;
+}
+
+.show {
+    filter: blur(0);
+    transform: translateY(0);
+    opacity: 1;
+}
+
+@media (prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+
+/* MEDIA QUERY FOR MOBILE VIEW
+        ******************************* */
+
+@media only screen and (max-width: 1315px) and (min-width: 1108px) {
+    .side-image {
+        padding-top: 100px;
+    }
+    #shop {
+        display: flex;
+        flex-direction: column;
+        column-gap: 10em;
+    }
+    /* --------------------------------
+    ---------- FORM STYLING -----------*/
+}
+
+@media only screen and (max-width: 1108px) {
+    body {
+        overflow-x: hidden;
+    }
+    html {
+        font-size: 16px;
+    }
+    #formNavigation {
+        display: none;
+    }
+    #shop {
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 4%; */
+    }
+    .content-section img {
+        height: 400px;
+        padding-top: 60px;
+    }
+    #navbar {
+        display: none;
+    }
+    .content-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-with-title {
+        width: 100%;
+    }
+    #tradition-flip {
+        flex-direction: column-reverse;
+    }
+    /* --------------------------------
+    ---------- FORM STYLING -----------*/
+    #form-layout {
+        flex-direction: column-reverse;
+    }
+    #parasol-form-page {
+        padding: 10rem;
+    }
+    #parasol-form-page img {
+        max-width: 100%;
+        height: auto;
+        width: 350px;
+    }
+    #parasol-form-page h1 {
+        padding: 5rem 0;
+    }
+    /* ADD HAMBURGER MENU HERE
+                    ************************** */
+}
+
+@media screen and (min-width:2000px) {
+    #parasol-page {
+        width: 80%;
+        /* background-color: #573636; */
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #parasol-page,
+    #page-content,
+    #banner-top,
+    #starting-line,
+    #banner-bottom,
+    #back-to-top,
+    #page-title {
+        margin: 0 0.3em;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    #header-addition {
+        margin: 0;
+    }
+    #page-title {
+        padding: 10rem 0;
+        margin: 0 auto;
+    }
+    h2 {
+        text-align: center;
+    }
+    #browserSupportOverlay h1 {
+        font-size: 2rem;
+    }
+    #browserSupportOverlay img {
+        width: 100px;
+    }
+    #form-layout {
+        flex-direction: column-reverse;
+    }
+    #parasol-form-page h1 {
+        padding: 10rem 0;
+    }
+}

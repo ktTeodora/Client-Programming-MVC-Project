@@ -1,0 +1,28 @@
+------------------------
+IMAGES USED ON THE PAGE
+------------------------
+
+index.html background image (base image) : https://www.rimura.com/en/prodotto/wagasa-en/
+form.html background image (base image) : https://www.kyoto-tsujikura.com/wp-content/uploads/2021/10/wagasa_washi.jpg
+
+Ryu (Dragon) patterned wagasa : https://www.pinterest.com/pin/59954238763955010/
+Kitsune (Nine-tailed Fox) patterned wagasa : https://www.pinterest.com/pin/41095415327474634/
+Ookami (Wolf) patterned wagasa : https://www.pinterest.de/pin/7670261846095232/
+Tori (Birds) patterned wagasa : https://wallpaperaccess.com/full/157476.jpg
+
+Section break parasol : https://png.pngtree.com/png-clipart/20201226/ourlarge/pngtree-sakura-branch-girl-japanese-wagasa-png-image_2645447.jpg
+
+History section side image : https://files.tofugu.com/articles/japan/2015-08-05-umbrellas-in-japan/girl-with-umbrellas-in-japanese-culture.jpg
+Tradition section side image : https://render.fineartamerica.com/images/rendered/share/29582670&domainId=12'
+About Us section side image : https://static.wikia.nocookie.net/lotr/images/9/9a/Simbelmyne.jpg/revision/latest?cb=20210117003941
+
+Banner top : https://www.scholten-japanese-art.com/artistimages/10-5378w.jpg
+Banner top : https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/NDL-DC_1301809-Utagawa_Kunisada-%E3%81%86%E3%82%91%E9%87%8E%E3%83%8E%E6%9A%AE%E9%9B%AA-cmb.jpg/1280px-NDL-DC_1301809-Utagawa_Kunisada-%E3%81%86%E3%82%91%E9%87%8E%E3%83%8E%E6%9A%AE%E9%9B%AA-cmb.jpg
+
+Banner bottom : https://images.squarespace-cdn.com/content/v1/58fd82dbbf629ab224f81b68/1635839764775-5SYU4I5CGF2DIICQC30S/Suzuki-Harunobu.jpg
+Banner bottom : https://images.rawpixel.com/image_400/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQyMDItNDNfMS5qcGc.jpg
+Banner bottom : https://pbs.twimg.com/media/E2_ZVFaXoAI6wnJ.jpg
+
+Bangasa base image : https://www.kyoto-tsujikura.com/wp-content/uploads/2022/03/%E7%95%AA%E5%82%98-%E8%BB%92%E5%A5%B4-%E9%BB%92-2.jpg
+Janome base image : https://www.kyoto-tsujikura.com/wp-content/uploads/2022/05/%E8%9B%87%E3%81%AE%E7%9B%AE%E5%82%98-%E6%9C%88%E5%A5%B4-%E8%8A%A5%E5%AD%90%E3%83%BB%E7%99%BD%E8%8C%B61.jpg
+Maigasa base image : https://www.nipponandco.fr/4806/ombrelle-traditionnelle-japonaise-rouge-wagasa-akai-ohatari.jpg
